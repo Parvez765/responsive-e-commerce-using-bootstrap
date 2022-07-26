@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text{
+    font-size: 90px;
+}
+.para-text{
+    font-size: 30px;
+}
+.logo{
+    width: 50px;
+    display: inline;
+}
+.laptop{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading{
+    font-size: 45px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.break{
+    transition: font-size 0.5s ease-in;
+}
+.break:hover{
+    font-size: 60px;
+}
+.client{
+    margin-bottom: 35px;
+}
+footer{
+    background: black;
+    padding: 30px;
+    color: white;
+}
+
+@media screen and (max-width: 970px) {
+    .text{
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .para-text {
+        font-size: 15px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .break:hover {
+        font-size: 40px;
+    }
+    
+    
+}
